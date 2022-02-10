@@ -4,7 +4,7 @@
 SHOW DATABASES;
 ```
 | Database           |
-|:----|
+|:-------------------|
 | batch_students     |
 | information_schema |
 | mysql              |
@@ -40,7 +40,7 @@ CREATE TABLE products (Product_id int(5) primary key, Product_Name varchar(255),
 SHOW TABLES;
 ```
 |Tables_in_mobel_furnitures |
-|:----|
+|:--------------------------|
 | products                  |
 
 ###### 1 row in set (0.01 sec)
@@ -51,7 +51,7 @@ SHOW TABLES;
 desc products;
 ```
 | Field        | Type         | Null | Key | Default | Extra |
-|:----||:----|:----||:----||:----||:----|
+|:-------------||:------------|:-----||:---||:-------||:-----|
 | Product_id   | int          | NO   | PRI | NULL    |       |
 | Product_Name | varchar(255) | YES  |     | NULL    |       |
 | Product_type | varchar(30)  | YES  |     | NULL    |       |
@@ -82,7 +82,7 @@ SELECT * from products;
 ```
 
 | Product_id | Product_Name     | Product_type | Price |
-|:----||:----||:----||:----|
+|:-----------||:----------------||:------------||:-----|
 |          1 | Orange Bar Chair | Chair        |  NULL |
 
 ###### 1 row in set (0.00 sec)
