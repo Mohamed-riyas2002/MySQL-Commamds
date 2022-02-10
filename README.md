@@ -1,1 +1,1 @@
-# MySQL-Commamds
+# MySQL-Commands
