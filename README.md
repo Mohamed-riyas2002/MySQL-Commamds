@@ -44,3 +44,45 @@ SHOW TABLES;
 | products                  |
 
 ###### 1 row in set (0.01 sec)
+****
+
+### DESCRIBE TABLE;
+```syntax
+desc products;
+```
+| Field        | Type         | Null | Key | Default | Extra |
+|:----||:----|:----||:----||:----||:----|
+| Product_id   | int          | NO   | PRI | NULL    |       |
+| Product_Name | varchar(255) | YES  |     | NULL    |       |
+| Product_type | varchar(30)  | YES  |     | NULL    |       |
+
+###### 3 rows in set (0.01 sec)
+****
+
+### INSERT INTO:
+```syntax
+INSERT INTO products VALUES(1,"Orange Bar Chair", "Chair");
+```
+
+###### Query OK, 1 row affected (0.01 sec)
+****
+
+### ALTER TABLE:
+```syntax
+ALTER TABLE products add Price int(7);
+```
+
+###### Query OK, 0 rows affected, 1 warning (0.04 sec)
+###### Records: 0  Duplicates: 0  Warnings: 1
+****
+
+### SELECT:
+```syntax
+SELECT * from products;
+```
+
+| Product_id | Product_Name     | Product_type | Price |
+|:----||:----||:----||:----|
+|          1 | Orange Bar Chair | Chair        |  NULL |
+
+###### 1 row in set (0.00 sec)
