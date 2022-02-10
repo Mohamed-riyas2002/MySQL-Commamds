@@ -39,7 +39,7 @@ CREATE TABLE products (Product_id int(5) primary key, Product_Name varchar(255),
 ```syntax
 SHOW TABLES;
 ```
-| Tables_in_mobel_furnitures|
+|Tables_in_mobel_furnitures |
 |:----|
 | products                  |
 
@@ -56,7 +56,7 @@ desc products;
 | Product_Name | varchar(255) | YES  |     | NULL    |       |
 | Product_type | varchar(30)  | YES  |     | NULL    |       |
 
-###### 3 rows in set (0.01 sec)
+###### 3 rows in set (0.01 sec|
 ****
 
 ### INSERT INTO:
