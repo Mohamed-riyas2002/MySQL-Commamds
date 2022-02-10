@@ -18,7 +18,7 @@ SHOW DATABASES;
 ```syntax
 CREATE DATABASE mobel_furnitures;
 ```
-###### Query OK, 1 row affected (0.02 sec); 
+###### Query OK, 1 row affected (0.02 sec) 
 ****
 
 ### USE DATABASE:
@@ -27,3 +27,20 @@ use mobel_furnitures;
 ```
 ###### Database changed
 ****
+
+### CREATE TABLE:
+```syntax
+CREATE TABLE products (Product_id int(5) primary key, Product_Name varchar(255), Product_type varchar(30)); 
+```
+###### Query OK, 0 rows affected, 1 warning (0.07 sec)
+****
+
+### SHOW TABLES:
+```syntax
+SHOW TABLES;
+```
+| Tables_in_mobel_furnitures|
+|:----|
+| products                  |
+
+###### 1 row in set (0.01 sec)
