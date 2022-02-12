@@ -68,7 +68,7 @@ desc products;
 ### INSERT INTO:
 #### To add new data into a table:
 ```syntax
-INSERT INTO products VALUES(1,"Orange Bar Chair", "Chair");
+INSERT INTO products (Product_id,Product_Name,Product_type) VALUES(1,"Orange Bar Chair", "Chair"),(2,"Rapid Long Sofa","Sofa");
 ```
 
 ###### Query OK, 1 row affected (0.01 sec)
@@ -93,6 +93,16 @@ SELECT * from products;
 | Product_id | Product_Name     | Product_type | Price |
 |:-----------|:-----------------|:-------------|:------|
 |          1 | Orange Bar Chair | Chair        |  NULL |
+|          2 | Rapid Long Sofa  | Sofa         |  NULL |
 
 ###### 1 row in set (0.00 sec)
 ****
+### WHERE Clause:
+#### To extract filtered data;
+```
+SELECT * from products WHERE product_type = "Chair";
+```
+
+| Product_id | Product_Name     | Product_type | Price |
+|:-----------|:-----------------|:-------------|:------|
+|          1 | Orange Bar Chair | Chair        |  NULL |
