@@ -74,6 +74,20 @@ INSERT INTO products (Product_id,Product_Name,Product_type) VALUES(1,"Orange Bar
 ###### Query OK, 1 row affected (0.01 sec)
 ****
 
+### SELECT:
+#### To retrieve all values from all columns in a table:
+```syntax
+SELECT * from products;
+```
+
+| Product_id | Product_Name     | Product_type |
+|:-----------|:-----------------|:-------------|
+|          1 | Orange Bar Chair | Chair        |
+|          2 | Rapid Long Sofa  | Sofa         |
+
+###### 1 row in set (0.00 sec)
+****
+
 ### ALTER TABLE:
 #### To modify columns in a table:
 ```syntax
@@ -84,19 +98,6 @@ ALTER TABLE products add Price int(7);
 ###### Records: 0  Duplicates: 0  Warnings: 1
 ****
 
-### SELECT:
-#### To retrieve all values from all columns in a table:
-```syntax
-SELECT * from products;
-```
-
-| Product_id | Product_Name     | Product_type | Price |
-|:-----------|:-----------------|:-------------|:------|
-|          1 | Orange Bar Chair | Chair        |  NULL |
-|          2 | Rapid Long Sofa  | Sofa         |  NULL |
-
-###### 1 row in set (0.00 sec)
-****
 ### WHERE Clause:
 #### To extract filtered data;
 ```
@@ -106,3 +107,6 @@ SELECT * from products WHERE product_type = "Chair";
 | Product_id | Product_Name     | Product_type | Price |
 |:-----------|:-----------------|:-------------|:------|
 |          1 | Orange Bar Chair | Chair        |  NULL |
+
+###### 1 row in set (0.01 sec)
+****
