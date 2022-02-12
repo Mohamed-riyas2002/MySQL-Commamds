@@ -151,3 +151,18 @@ SELECT * from products;
 
 ###### 2 rows in set (0.00 sec)
 ****
+
+### DELETE:
+#### To delete an existing records in a table:
+```syntax
+DELETE from products where Product_id = 1;
+```
+###### Query OK, 1 row affected (0.01 sec)
+
+```syntax
+select * from products;
+```
+| Product_id | Product_Name    | Product_type | Price |
+|------------|-----------------|--------------|-------|
+|          2 | Rapid Long Sofa | Sofa         | 10000 |
+###### 1 row in set (0.00 sec)
