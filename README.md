@@ -1,5 +1,6 @@
 # MySQL- QUERIES
 ### SHOW DATABASES:
+##### To list all databases:
 ```syntax
 SHOW DATABASES;
 ```
@@ -15,6 +16,7 @@ SHOW DATABASES;
 ****
 
 ### CREATE DATABASE:
+##### To Create a database:
 ```syntax
 CREATE DATABASE mobel_furnitures;
 ```
@@ -22,6 +24,7 @@ CREATE DATABASE mobel_furnitures;
 ****
 
 ### USE DATABASE:
+##### To Access a database:
 ```syntax
 use mobel_furnitures;
 ```
@@ -29,6 +32,7 @@ use mobel_furnitures;
 ****
 
 ### CREATE TABLE:
+##### To Create a table;
 ```syntax
 CREATE TABLE products (Product_id int(5) primary key, Product_Name varchar(255), Product_type varchar(30)); 
 ```
@@ -36,6 +40,7 @@ CREATE TABLE products (Product_id int(5) primary key, Product_Name varchar(255),
 ****
 
 ### SHOW TABLES:
+##### To List all the tables in a database:
 ```syntax
 SHOW TABLES;
 ```
@@ -47,6 +52,7 @@ SHOW TABLES;
 ****
 
 ### DESCRIBE TABLE;
+##### To display the structure of the table:
 ```syntax
 desc products;
 ```
@@ -86,3 +92,4 @@ SELECT * from products;
 |          1 | Orange Bar Chair | Chair        |  NULL |
 
 ###### 1 row in set (0.00 sec)
+****
