@@ -1,6 +1,6 @@
 # MySQL- QUERIES
 ### SHOW DATABASES:
-##### To list all databases:
+#### To list all databases:
 ```syntax
 SHOW DATABASES;
 ```
@@ -16,7 +16,7 @@ SHOW DATABASES;
 ****
 
 ### CREATE DATABASE:
-##### To Create a database:
+#### To Create a database:
 ```syntax
 CREATE DATABASE mobel_furnitures;
 ```
@@ -24,7 +24,7 @@ CREATE DATABASE mobel_furnitures;
 ****
 
 ### USE DATABASE:
-##### To Access a database:
+#### To Access a database:
 ```syntax
 use mobel_furnitures;
 ```
@@ -32,7 +32,7 @@ use mobel_furnitures;
 ****
 
 ### CREATE TABLE:
-##### To Create a table;
+#### To Create a table;
 ```syntax
 CREATE TABLE products (Product_id int(5) primary key, Product_Name varchar(255), Product_type varchar(30)); 
 ```
@@ -40,7 +40,7 @@ CREATE TABLE products (Product_id int(5) primary key, Product_Name varchar(255),
 ****
 
 ### SHOW TABLES:
-##### To List all the tables in a database:
+#### To List all the tables in a database:
 ```syntax
 SHOW TABLES;
 ```
@@ -52,7 +52,7 @@ SHOW TABLES;
 ****
 
 ### DESCRIBE TABLE;
-##### To display the structure of the table:
+#### To display the structure of the table:
 ```syntax
 desc products;
 ```
@@ -66,6 +66,7 @@ desc products;
 ****
 
 ### INSERT INTO:
+#### To add new data into a table:
 ```syntax
 INSERT INTO products VALUES(1,"Orange Bar Chair", "Chair");
 ```
@@ -74,6 +75,7 @@ INSERT INTO products VALUES(1,"Orange Bar Chair", "Chair");
 ****
 
 ### ALTER TABLE:
+#### To modify columns in a table:
 ```syntax
 ALTER TABLE products add Price int(7);
 ```
@@ -83,6 +85,7 @@ ALTER TABLE products add Price int(7);
 ****
 
 ### SELECT:
+#### To retrieve all values from all columns in a table:
 ```syntax
 SELECT * from products;
 ```
